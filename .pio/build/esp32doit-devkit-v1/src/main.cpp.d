@@ -1,5 +1,6 @@
 .pio/build/esp32doit-devkit-v1/src/main.cpp.o: src/main.cpp \
- src/Controller.h src/DistanceSensor.h src/ColorSensor.h src/Configs.h \
+ src/Subsystem/Controller.h src/Subsystem/DistanceSensor.h \
+ src/Subsystem/ColorSensor.h src/Subsystem/Configs.h \
  lib/Adafruit-PWM-Servo-Driver-Library/Adafruit_PWMServoDriver.h \
  C:/Users/HP/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  C:/Users/HP/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
